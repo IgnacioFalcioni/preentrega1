@@ -1,6 +1,46 @@
-p{
-    text-align: center;
-    font-size: 35px;
-    font-style: oblique;
-    text-decoration: double;
-}
+.nav {
+    background-color:brown; 
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .titulo {
+    font-size: 1.5rem;
+    color: #fff; 
+    margin: 0;
+  }
+  
+  .total {
+    display: flex;
+    align-items: center;
+    flex: 1; 
+    justify-content: center; 
+  }
+  
+  .button {
+    background-color: #fff; 
+    color: #000000; 
+    border: none;
+    padding: 0.5rem 1rem;
+    margin-left: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    text-decoration: none;
+  }
+  
+  .button:hover {
+    background-color: #ff000060; 
+    color: #fff; 
+  }
+  
+  .CartWidget {
+    margin-left: auto; /* Desplaza el componente CartWidget a la derecha */
+  }
+
+
+  
+  /* Estilo para los enlaces activos */
+ 
